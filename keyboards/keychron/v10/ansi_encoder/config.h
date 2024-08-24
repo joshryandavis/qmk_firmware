@@ -21,3 +21,10 @@
 
 /* Enable caps-lock LED */
 #define CAPS_LOCK_LED_INDEX 48
+
+#undef VENDOR_ID
+#undef PRODUCT_ID
+// #undef DEVICE_VER
+#define VENDOR_ID  0x05AC // Apple
+#define PRODUCT_ID 0x029C // Aluminum Keyboard (ANSI)
+// #define DEVICE_VER 0x0001
